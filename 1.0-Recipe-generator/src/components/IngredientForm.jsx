@@ -9,6 +9,7 @@ export default function IngredientForm(props){
                     placeholder="e.g. oregano"
                     name="ingredient"
                     className="ingredient-input"
+                    autoComplete="off"
                 />
                 <button className="add-btn">Add Ingredient</button>
             </form>
