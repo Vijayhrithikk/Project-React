@@ -1,0 +1,142 @@
+/* General Reset and Base Styles */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 11px;
+  height: 80px;
+  background-color: white;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10), 0px 1px 2px 0px rgba(0, 0, 0, 0.06);
+}
+
+.recipe-container{
+  color: #475467;
+    line-height: 28px;
+    font-size: 1.125rem;
+    font-weight: 400;
+}
+
+header > img {
+  width: 50px;
+}
+
+header > h1 {
+  font-weight: 400;
+}
+
+main {
+  padding: 30px 30px 10px;
+}
+
+
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #f7f8fa;
+  margin: 0;
+  padding: 0;
+  color: #222;
+}
+
+.main-container {
+  max-width: 500px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 2.5rem 2rem;
+}
+
+.add-ingredient-form {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 2rem;
+}
+
+.ingredient-input {
+  flex: 1;
+  padding: 0.7rem 1rem;
+  border: 1.5px solid #d1d5db;
+  border-radius: 8px;
+  font-size: 1rem;
+  transition: border 0.2s;
+}
+
+.ingredient-input:focus {
+  border-color: #7c3aed;
+  outline: none;
+}
+
+.add-btn {
+  background: linear-gradient(90deg, black 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.add-btn:hover {
+  background: linear-gradient(90deg, #38bdf8 0%, #7c3aed 100%);
+  transform: translateY(-2px) scale(1.04);
+}
+
+
+
+.ingredients-title {
+  font-size: 1.3rem;
+  margin-bottom: 0.7rem;
+  color: black;
+}
+
+.ingredients-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem 0;
+}
+
+.ingredient-item {
+  background: #f3f4f6;
+  margin-bottom: 0.5rem;
+  padding: 0.7rem 1rem;
+  border-radius: 6px;
+  font-size: 1.05rem;
+  box-shadow: 0 1px 4px rgba(60,60,60,0.04);
+}
+
+.get-recipe-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: whitesmoke;
+  border-radius: 10px;
+  padding: 1rem 1.2rem;
+  box-shadow: 0 2px 8px rgba(124,58,237,0.06);
+}
+
+.get-recipe-info h3 {
+  margin: 0 0 0.2rem 0;
+  color: black;
+}
+
+.get-recipe-btn {
+  background: black;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1.3rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.1s;
+}
+
+.get-recipe-btn:hover {
+  background: #38bdf8;
+  transform: translateY(-2px) scale(1.04);
+}
+
+
